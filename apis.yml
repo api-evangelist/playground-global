@@ -17,6 +17,17 @@ description: >-
   across its funds. Notable portfolio companies include PsiQuantum, Relativity
   Space, Ultima Genomics, d-Matrix, Velo3D (NYSE), and MosaicML (acquired by
   Databricks).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: >-
   https://cdn.prod.website-files.com/67a0cf547fd16e142c2fba80/67a313441369d4566db3b44e_playground-logo-symbol.svg
 x-type: venture-capital

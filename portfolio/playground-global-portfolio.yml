@@ -3,9 +3,9 @@ method: searched
 source: https://www.playground.vc/portfolio
 summary:
   portfolio_total: 43
-  in_network: 9
-  api_providers: 4
-  missing: 34
+  in_network: 43
+  api_providers: 2
+  missing: 0
   stubs_created: 0
 companies:
 - name: 1910 Genetics
@@ -14,9 +14,10 @@ companies:
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 1910-genetics
+  slug: 1910-genetics
+  matched_by: name-slug
 - name: Agility Robotics
   url: https://www.agilityrobotics.com/
   description: Maker of Digit, a bipedal humanoid robot for logistics and warehouse work.
@@ -33,27 +34,30 @@ companies:
   sector: energy-transition
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alva-energy
+  slug: alva-energy
+  matched_by: domain
 - name: Amber Bio
   url: https://www.amber.bio/
   description: Multi-kilobase RNA editing platform for single-dose genetic medicines.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amber-bio
+  slug: amber
+  matched_by: domain
 - name: Anjuna
   url: https://www.anjuna.io/
   description: Confidential computing platform that isolates workloads in secure enclaves.
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anjuna
+  slug: anjuna
+  matched_by: domain
 - name: Atomic AI
   url: https://atomic.ai/
   description: RNA-focused drug discovery combining AI and structural biology.
@@ -63,34 +67,37 @@ companies:
   slug: atomic-ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Ayar Labs
   url: https://ayarlabs.com/
   description: Optical interconnect (silicon photonics) for high-bandwidth chip-to-chip I/O.
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ayar-labs
+  slug: ayar-labs
+  matched_by: domain
 - name: Bodyport
   url: https://www.bodyport.com/
   description: Cardiac scale and platform measuring cardiovascular biomarkers at home.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bodyport
+  slug: bodyport
+  matched_by: domain
 - name: Boxbot
   url: https://www.boxbot.io/
   description: Automated parcel sortation and last-mile logistics systems.
   sector: automation
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boxbot
+  slug: boxbot
+  matched_by: domain
 - name: Branch
   url: https://www.branch.io/
   description: Mobile linking and measurement platform for deep links and attribution.
@@ -107,81 +114,90 @@ companies:
   sector: deep-tech
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deice
+  slug: deice
+  matched_by: domain
 - name: d-Matrix
   url: https://www.d-matrix.ai/
   description: Digital in-memory compute chips for efficient generative AI inference.
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: d-matrix
+  slug: d-matrix
+  matched_by: domain
 - name: Element Zero
   url: https://elementzero.green/
   description: Green materials and decarbonization technology company.
   sector: energy-transition
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: element-zero
+  slug: element-zero
+  matched_by: domain
 - name: Fabric
   url: https://www.getfabric.com/
   description: Robotic micro-fulfillment and warehouse automation for e-commerce.
   sector: automation
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabric
+  slug: fabric
+  matched_by: name-slug
 - name: GigaCrop
   url: https://www.gigacrop.com/
   description: Agricultural biology company improving crop productivity.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gigacrop
+  slug: gigacrop
+  matched_by: domain
 - name: Ideon AI
   url: https://ideon.ai/
   description: AI company in the Playground portfolio.
   sector: ai
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ideon-ai
+  slug: ideon-ai
+  matched_by: domain
 - name: Infinimmune
   url: https://www.infinimmune.com/
   description: Antibody discovery platform built on the complete human antibody repertoire.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infinimmune
+  slug: infinimmune
+  matched_by: domain
 - name: Insamo
   url: https://insamo.com/
   description: Programmable macrocycle therapeutics combining the benefits of small molecules and biologics.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insamo
+  slug: insamo
+  matched_by: domain
 - name: Manifold Bio
   url: https://www.manifold.bio/
   description: Protein therapeutics engineering using high-throughput in-vivo measurement.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manifold-bio
+  slug: manifold-bio
+  matched_by: domain
 - name: MosaicML
   url: https://www.databricks.com/research/mosaic
   description: Platform for training and deploying large AI models; acquired by Databricks in 2023.
@@ -198,72 +214,80 @@ companies:
   sector: automation
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nauto
+  slug: nauto
+  matched_by: domain
 - name: NextSilicon
   url: https://www.nextsilicon.com/
   description: Adaptive compute architecture (Intelligent Compute) for high-performance computing.
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nextsilicon
+  slug: nextsilicon
+  matched_by: domain
 - name: NVision Imaging Technologies
   url: https://www.nvision-imaging.com/
   description: Hyperpolarized MRI imaging for real-time metabolic diagnostics.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nvision-imaging-technologies
+  slug: nvision-imaging-technologies
+  matched_by: name-slug
 - name: Outpace Bio
   url: https://www.outpacebio.com/
   description: Protein-engineered cell therapies for solid tumors.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outpace-bio
+  slug: outpace-bio
+  matched_by: domain
 - name: Owl Labs
   url: https://owllabs.eu/
   description: Company in the Playground portfolio.
   sector: deep-tech
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: owl-labs
+  slug: owl-labs
+  matched_by: name-slug
 - name: Phasecraft
   url: https://www.phasecraft.io/
   description: Quantum software company developing near-term quantum algorithms.
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: phasecraft
+  slug: phasecraft
+  matched_by: domain
 - name: PicoJool
   url: https://picojool.com/
   description: Energy technology company in the Playground portfolio.
   sector: energy-transition
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: picojool
+  slug: picojool
+  matched_by: domain
 - name: Power Lattice
   url: https://powerlatticeinc.com/
   description: Semiconductor power-delivery technology company.
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: power-lattice
+  slug: power-lattice
+  matched_by: domain
 - name: PsiQuantum
   url: https://www.psiquantum.com/
   description: Building a fault-tolerant, utility-scale photonic quantum computer.
@@ -280,9 +304,10 @@ companies:
   sector: automation
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rapidsos
+  slug: rapidsos
+  matched_by: domain
 - name: Relativity Space
   url: https://www.relativityspace.com/
   description: 3D-printed rockets and autonomous aerospace manufacturing.
@@ -291,7 +316,7 @@ companies:
   source: https://www.playground.vc/portfolio
   slug: relativity-space
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Robust.AI
   url: https://www.robust.ai/
@@ -299,18 +324,20 @@ companies:
   sector: automation
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: robustai
+  slug: robustai
+  matched_by: domain
 - name: Sizable Energy
   url: https://sizableenergy.com/
   description: Energy transition technology company.
   sector: energy-transition
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sizable-energy
+  slug: sizable-energy
+  matched_by: domain
 - name: Skydio
   url: https://www.skydio.com/
   description: Autonomous drones for enterprise, public safety, and defense.
@@ -327,46 +354,50 @@ companies:
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snowcap-compute
+  slug: snowcap-compute
+  matched_by: domain
 - name: Syenta
   url: https://www.syenta.com/
   description: Additive electronics manufacturing and printing technology.
   sector: automation
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: syenta
+  slug: syenta
+  matched_by: domain
 - name: Synthetic Design Lab
   url: https://www.syntheticdesignlab.com/
   description: Engineered biology company in the Playground portfolio.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synthetic-design-lab
+  slug: synthetic-design-lab
+  matched_by: domain
 - name: Ultima Genomics
   url: https://www.ultimagenomics.com/
   description: High-throughput, low-cost genome sequencing platform.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  slug: ultima-genomics
+  slug: ultimagenomics
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Unconventional
   url: https://unconv.ai/
   description: AI company in the Playground portfolio.
   sector: ai
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unconventional
+  slug: unconv
+  matched_by: domain
 - name: Velo3D
   url: https://velo3d.com/
   description: Metal additive manufacturing for mission-critical parts; publicly listed (NYSE).
@@ -375,7 +406,7 @@ companies:
   source: https://www.playground.vc/portfolio
   slug: velo3d
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Vertical Semiconductor
   url: https://verticalsemi.com/
@@ -383,24 +414,27 @@ companies:
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vertical-semiconductor
+  slug: vertical-semiconductor
+  matched_by: domain
 - name: Virta Health
   url: https://www.virtahealth.com/
   description: Digital care platform for reversing type 2 diabetes and metabolic disease.
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virta-health
+  slug: virta-health
+  matched_by: domain
 - name: xLight
   url: https://www.xlight.com/
   description: Free-electron laser light source for next-generation EUV lithography.
   sector: compute
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xlight
+  slug: xlight
+  matched_by: domain
