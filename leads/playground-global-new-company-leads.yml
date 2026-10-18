@@ -1,4 +1,25 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: playground-global
-leads: []
+leads:
+- name: 1910 Genetics
+  url: https://www.1910genetics.com/
+  suggested_slug: 1910genetics-com
+  sector: engineered-biology
+  source_vc: playground-global
+  source: https://www.playground.vc/portfolio
+  stub_created: false
+- name: Fabric
+  url: https://www.getfabric.com/
+  suggested_slug: getfabric-com
+  sector: automation
+  source_vc: playground-global
+  source: https://www.playground.vc/portfolio
+  stub_created: false
+- name: NVision Imaging Technologies
+  url: https://www.nvision-imaging.com/
+  suggested_slug: nvision-imaging-com
+  sector: engineered-biology
+  source_vc: playground-global
+  source: https://www.playground.vc/portfolio
+  stub_created: false

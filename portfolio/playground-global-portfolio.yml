@@ -3,9 +3,9 @@ method: searched
 source: https://www.playground.vc/portfolio
 summary:
   portfolio_total: 43
-  in_network: 43
+  in_network: 40
   api_providers: 2
-  missing: 0
+  missing: 3
   stubs_created: 0
 companies:
 - name: 1910 Genetics
@@ -14,10 +14,10 @@ companies:
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: 1910-genetics
-  matched_by: name-slug
+  x-name-collision: 1910-genetics
+  suggested_slug: 1910genetics-com
 - name: Agility Robotics
   url: https://www.agilityrobotics.com/
   description: Maker of Digit, a bipedal humanoid robot for logistics and warehouse work.
@@ -46,7 +46,7 @@ companies:
   source: https://www.playground.vc/portfolio
   in_network: true
   is_api_provider: false
-  slug: amber
+  slug: amber-bio
   matched_by: domain
 - name: Anjuna
   url: https://www.anjuna.io/
@@ -116,7 +116,7 @@ companies:
   source: https://www.playground.vc/portfolio
   in_network: true
   is_api_provider: false
-  slug: deice
+  slug: de-ice
   matched_by: domain
 - name: d-Matrix
   url: https://www.d-matrix.ai/
@@ -144,10 +144,10 @@ companies:
   sector: automation
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fabric
-  matched_by: name-slug
+  x-name-collision: fabric
+  suggested_slug: getfabric-com
 - name: GigaCrop
   url: https://www.gigacrop.com/
   description: Agricultural biology company improving crop productivity.
@@ -234,10 +234,10 @@ companies:
   sector: engineered-biology
   status: active
   source: https://www.playground.vc/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: nvision-imaging-technologies
-  matched_by: name-slug
+  x-name-collision: nvision-imaging-technologies
+  suggested_slug: nvision-imaging-com
 - name: Outpace Bio
   url: https://www.outpacebio.com/
   description: Protein-engineered cell therapies for solid tumors.
