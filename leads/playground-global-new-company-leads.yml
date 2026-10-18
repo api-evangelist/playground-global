@@ -23,3 +23,10 @@ leads:
   source_vc: playground-global
   source: https://www.playground.vc/portfolio
   stub_created: false
+- name: Saltbox
+  url: https://saltbox.com
+  suggested_slug: saltbox
+  sector: ''
+  source_vc: playground-global
+  source: https://playground.global/portfolio
+  stub_created: false

@@ -2,10 +2,10 @@ generated: '2026-07-17'
 method: searched
 source: https://www.playground.vc/portfolio
 summary:
-  portfolio_total: 43
-  in_network: 40
+  portfolio_total: 46
+  in_network: 42
   api_providers: 2
-  missing: 3
+  missing: 4
   stubs_created: 0
 companies:
 - name: 1910 Genetics
@@ -16,8 +16,8 @@ companies:
   source: https://www.playground.vc/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: 1910-genetics
   suggested_slug: 1910genetics-com
+  x-name-collision: 1910-genetics
 - name: Agility Robotics
   url: https://www.agilityrobotics.com/
   description: Maker of Digit, a bipedal humanoid robot for logistics and warehouse work.
@@ -146,8 +146,8 @@ companies:
   source: https://www.playground.vc/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: fabric
   suggested_slug: getfabric-com
+  x-name-collision: fabric
 - name: GigaCrop
   url: https://www.gigacrop.com/
   description: Agricultural biology company improving crop productivity.
@@ -236,8 +236,8 @@ companies:
   source: https://www.playground.vc/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: nvision-imaging-technologies
   suggested_slug: nvision-imaging-com
+  x-name-collision: nvision-imaging-technologies
 - name: Outpace Bio
   url: https://www.outpacebio.com/
   description: Protein-engineered cell therapies for solid tumors.
@@ -438,3 +438,25 @@ companies:
   is_api_provider: false
   slug: xlight
   matched_by: domain
+- name: Saltbox
+  url: https://saltbox.com
+  source: https://playground.global/portfolio
+  x-added: '2026-10-18'
+  suggested_slug: saltbox
+  in_network: false
+  is_api_provider: false
+- name: Strand Therapeutics
+  url: https://strandtx.com
+  source: https://playground.global/portfolio
+  x-added: '2026-10-18'
+  slug: strand-therapeutics
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Nervana Systems
+  source: https://playground.global/portfolio
+  x-added: '2026-10-18'
+  slug: nervana-systems
+  in_network: true
+  is_api_provider: false
+  matched_by: name-slug
